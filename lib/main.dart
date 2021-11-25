@@ -1,23 +1,19 @@
-import 'package:drawer/src/drawer.dart';
+
 import 'package:flutter/material.dart';
-
-
+import 'NumberGame.dart';
 
 void main() => runApp(MyApp());
 
-
-
 class MyApp extends StatelessWidget {
-    @override
-    Widget build(BuildContext context) {
-        return MaterialApp(
-            title: 'Drawer Menu',
-            theme: ThemeData(
-                primarySwatch: Colors.blue,
-            ),
-
-            home: DrawerMenu(),
-        );
-
-    }
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        fontFamily: 'PressStart',
+      ),
+      home: NumberGame(),
+    );
+  }
 }

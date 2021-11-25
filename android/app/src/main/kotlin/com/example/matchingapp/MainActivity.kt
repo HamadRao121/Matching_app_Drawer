@@ -1,4 +1,4 @@
-package com.example.drawer
+package com.example.matchingapp
 
 import io.flutter.embedding.android.FlutterActivity
 
